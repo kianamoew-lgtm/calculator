@@ -26,3 +26,8 @@ def to_int(n):
         raise ValueError("the number should be an integer")
     return int(n)
 
+while True:
+    line = input(">>> ").strip().lower()
+
+    if line == "q":
+        break
