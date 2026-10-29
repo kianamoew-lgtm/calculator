@@ -19,3 +19,10 @@ def inputt(input):
         return int(input)
     except ValueError:
         return float(input)
+
+
+def to_int(n):
+    if n != int(n):
+        raise ValueError("the number should be an integer")
+    return int(n)
+
